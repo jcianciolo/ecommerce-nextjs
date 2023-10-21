@@ -34,7 +34,7 @@ export default function AddProductPage() {
                 <textarea required name="description" placeholder="Description" className="textarea-bordered textarea mb-3 w-full"/>
                 <input required name="imageUrl" placeholder="Image URL" type="url" className="input input-bordered w-full mb-3" />
                 <input required name="price" placeholder="Price" type="number" className="input input-bordered w-full mb-3" />
-                <FormSubmitButton type="submit" className="btn-block">Add Product</FormSubmitButton>
+                <FormSubmitButton className="btn-block">Add Product</FormSubmitButton>
             </form>
         </div>
     )
